@@ -2,17 +2,47 @@
   "name": "@corpusiuris/mexican-law-mcp",
   "version": "1.0.0",
   "description": "Servidor MCP de derecho mexicano: leyes, tesis y precedentes de la SCJN con vigencia fechada y URL citable. Mexican law MCP server with verifiable citations.",
-  "keywords": ["mcp", "model-context-protocol", "mexican-law", "derecho-mexicano",
-               "mexico", "legal", "legaltech", "jurisprudencia", "scjn", "law",
-               "legal-research", "rag", "ai-agents"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mexican-law",
+    "derecho-mexicano",
+    "mexico",
+    "legal",
+    "legaltech",
+    "jurisprudencia",
+    "scjn",
+    "law",
+    "legal-research",
+    "rag",
+    "ai-agents"
+  ],
   "homepage": "https://corpusiuris.mx/agentes",
-  "repository": { "type": "git", "url": "git+https://github.com/maharbanaretsagrav/corpus-iuris-mcp.git", "directory": "npm" },
-  "bugs": { "url": "https://github.com/maharbanaretsagrav/corpus-iuris-mcp/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharbanaretsagrav/corpus-iuris-mcp.git",
+    "directory": "npm"
+  },
+  "bugs": {
+    "url": "https://github.com/maharbanaretsagrav/corpus-iuris-mcp/issues"
+  },
   "license": "MIT",
   "author": "AteraSoft <contacto@corpusiuris.mx> (https://corpusiuris.mx)",
   "type": "module",
-  "bin": { "corpus-iuris-mcp": "src/index.mjs" },
-  "files": ["src", "README.md"],
-  "engines": { "node": ">=18" },
-  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" }
+  "bin": {
+    "corpus-iuris-mcp": "src/index.mjs"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
