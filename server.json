@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "mx.corpusiuris/corpus-iuris",
+  "title": "Corpus Iuris",
+  "description": "Derecho mexicano verificable: 6,710 leyes federales y estatales, 311,701 tesis y 11,708 precedentes de la SCJN, con vigencia fechada y URL citable.",
+  "version": "1.0.0",
+  "websiteUrl": "https://corpusiuris.mx/agentes",
+  "repository": {
+    "url": "https://github.com/maharbanaretsagrav/corpus-iuris-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.corpusiuris.mx/mcp"
+    }
+  ]
+}
