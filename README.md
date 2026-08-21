@@ -4,7 +4,7 @@
 > 311,701 Supreme Court *tesis* and 11,708 precedents — with verifiable
 > citations, dated validity and a public URL for every document.
 
-[![MCP](https://img.shields.io/badge/MCP-servidor%20remoto-blue)](https://api.corpusiuris.mx/mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-mx.corpusiuris%2Fmexican--law-blue)](https://registry.modelcontextprotocol.io/v0/servers?search=mexican)
 [![API](https://img.shields.io/badge/REST-sin%20API%20key-green)](https://corpusiuris.mx/agentes)
 [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.1-orange)](https://corpusiuris.mx/openapi.json)
 
